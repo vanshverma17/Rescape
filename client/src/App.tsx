@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import Home from "./pages/Home"
 import TripForm from "./pages/TripForm";
 import Footer from "./components/Footer";
+import Dashboard from "./components/Dashboard";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/trip" element={<TripForm />} />
+            <Route path="/dashboard" element={<Dashboard/>} />
           </Routes>
         </main>
         <Footer />
