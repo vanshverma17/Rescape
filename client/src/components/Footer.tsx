@@ -1,4 +1,6 @@
 import { Link } from "react-router-dom";
+import { TwitterIcon, InstagramIcon, GithubIcon } from 'lucide-react';
+
 
 export default function Footer() {
   return (
@@ -24,9 +26,9 @@ export default function Footer() {
         <div>
           <h3 className="font-semibold mb-2">Follow Us</h3>
           <div className="flex justify-center md:justify-start space-x-4">
-            <a href="#" className="hover:underline">Twitter</a>
-            <a href="#" className="hover:underline">Instagram</a>
-            <a href="#" className="hover:underline">GitHub</a>
+            <a href="#" className="hover:underline"><TwitterIcon /></a>
+            <a href="#" className="hover:underline"><InstagramIcon /></a>
+            <a href="#" className="hover:underline"><GithubIcon /></a>
           </div>
         </div>
       </div>
